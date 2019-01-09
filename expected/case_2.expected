@@ -1,0 +1,4 @@
+Processing argument './test_inputs/case10.txt'
+Reading './test_inputs/case10.txt':
+Failed at line 56 on exception: java.text.NullException
+

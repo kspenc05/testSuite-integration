@@ -1,0 +1,27 @@
+Processing argument 'sampledata.txt'
+Reading 'sampledata.txt':
+Student 'Studious Student' (0123456):
+
+3 terms
+Term F16:
+    CIS1234	B 
+    CIS1324	B+ (78 %)
+    MAT1234	A  (88 %)
+    MAT2340	C+ (68 %)
+    Term GPA : 3.15
+Term W17:
+    CIS2000	A- (81 %)
+    CIS2222	B+ (78 %)
+    CIS2345	C+ (69 %)
+    CIS2010	A- (82 %)
+    SOC2010	C 
+    Term GPA : 3.00
+Term F18:
+    CIS3210	A-
+    CIS3333	B 
+    CIS3434	A+ (98 %)
+    CIS3210	A+ (100 %)
+    CIS3100	F  (1 %)
+    Term GPA : 3.06
+
+    Overall GPA : 3.07

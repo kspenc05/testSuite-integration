@@ -1,0 +1,4 @@
+Processing argument './test_inputs/case10.txt'
+Reading './test_inputs/case10.txt':
+Failed at line 16 on exception: java.text.ParseException: Expected 'term' in file at [W17]
+

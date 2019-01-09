@@ -1,0 +1,11 @@
+Processing argument './test_inputs/case8.txt'
+Reading './test_inputs/case8.txt':
+Student 'Studious Student' (0123456):
+
+1 terms
+Term F16:
+    CIS1234	B 
+    CIS1324	B+ (78 %)
+    Term GPA : 3.15
+
+    Overall GPA : 3.15
