@@ -1,0 +1,7 @@
+"Studious Student"
+0123456
+
+term F16
+course CIS1234 B+
+course CIS1324 78
+
