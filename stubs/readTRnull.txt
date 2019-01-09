@@ -1,0 +1,4 @@
+	public Database readTranscriptFile() throws ParseException
+	{
+	    return null;
+	}

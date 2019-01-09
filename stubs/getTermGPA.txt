@@ -1,0 +1,4 @@
+	public float getTermGPA(String term)
+	{
+		return -1;
+	}

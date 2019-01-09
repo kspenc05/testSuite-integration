@@ -1,0 +1,5 @@
+	public Database readTranscriptFile() throws ParseException
+	{
+	    Database db = new Database("Studious Student", "0123456");
+	    return db;
+	}

@@ -1,0 +1,6 @@
+	public int addLetterGrade(
+			String term,
+			String lettergrade)
+	{
+        return -1;
+	}
