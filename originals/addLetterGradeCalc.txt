@@ -1,0 +1,34 @@
+	public int addLetterGrade(
+			String term,
+			String lettergrade)
+	{
+		int i, found = (-1);
+
+		/** search for other uses of this term */
+		for (i = 0 ; i < GPA_MAX_TERMS_PER_STUDENT && i < this.nTerms; i++)
+		{
+			if (this.terms[i].termName.equals(term))
+			{
+				found = i;
+				break;
+			}
+		}
+
+		/** if this term is new, add it */
+		if (found < 0)
+		{
+			if (this.nTerms >= GPA_MAX_TERMS_PER_STUDENT)
+			{
+				return -1;
+			}
+			found = this.nTerms++;
+			this.terms[found].termName = term;
+		}
+
+		/** we have now found the right term, so add the course */
+		this.terms[found].letterGrades[
+					this.terms[found].nCourses++
+				] = lettergrade;
+
+		return found;
+	}

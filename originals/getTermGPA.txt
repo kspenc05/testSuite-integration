@@ -1,0 +1,34 @@
+	public float getTermGPA(String term)
+	{
+		int i, found = (-1);
+		float gpaSummation;
+
+		/** search for other uses of this term */
+		for (i = 0 ; i < this.nTerms; i++)
+		{
+			if (this.terms[i].termName.equals(term))
+			{
+				found = i;
+				break;
+			}
+		}
+
+		/** if this term is not found, GPA is negative infinity */
+		if (found < 0)
+		{
+			return java.lang.Float.POSITIVE_INFINITY;
+		}
+
+		/** calculate the average over this term */
+		gpaSummation = GPAconverter.getGPAforLetterGrade(
+					this.terms[found].letterGrades[0]
+				);
+		for (i = 1; i < this.terms[found].nCourses; i++)
+		{
+			gpaSummation += GPAconverter.getGPAforLetterGrade(
+						this.terms[found].letterGrades[i]
+					);
+		}
+
+		return gpaSummation / (float) this.terms[found].nCourses;
+	}
