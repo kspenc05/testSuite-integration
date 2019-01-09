@@ -1,0 +1,27 @@
+"Studious Student"
+0123456
+
+term F16
+course CIS1234  B+
+course CIS1324  78
+course MAT1234 88
+course MAT2340 68
+
+term W17
+course CIS2000 81
+course CIS2222 78
+course CIS2345 69
+course CIS2010 82
+course SOC2010 C+
+
+term F18
+course CIS3210 A-
+course CIS3333 B+
+course CIS3434 98
+course CIS3210 100
+course CIS3100 1
+
+
+
+
+

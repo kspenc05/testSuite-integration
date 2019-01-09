@@ -1,0 +1,4 @@
+enter "bash test_suite.sh" into the command line
+
+if you want to run a test case separately, enter the testcases folder,
+enter "bash" followed by the name of the script including the ".sh" file extension
