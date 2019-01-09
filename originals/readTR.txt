@@ -1,0 +1,28 @@
+	public Database readTranscriptFile() throws ParseException
+	{
+		TermInfo term;
+		Token token;
+
+
+		if ((token = expectString()) == null)	return null;
+		String studentName = token.stringvalue;
+
+		if ((token = expectInteger()) == null)	return null;
+		String studentID = token.stringvalue;
+		this.db = new Database(studentName, studentID);
+
+		while ((term = readTerm()) != null) {
+			this.db.addTerm(term);
+		}
+
+		if (tokenizer.isAtEOF())
+		{
+			try {
+				tokenizer.close();
+			} catch (IOException e) {
+				// do nothing
+			}
+		}
+
+		return db;
+	}
